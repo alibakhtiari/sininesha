@@ -105,9 +105,11 @@
     ],
     "theme_color": "#604d3e",
     "background_color": "#604d3e",
-    "display": "fullscreen",
+    "display": "standalone",
     "start_url": "/",
-    "lang": "English",
+    "lang": "fa",
+    "dir": "rtl",
     "orientation": "portrait",
-    "description": "سبزوکیوم ارزان ترین تولید کننده انواع سینی نشا در اندازه های مختلف آماده ی همکاری با تمامی کشاورزان عزیز در سراسر ایران می باشد."
+    "description": "سبزوکیوم ارزان ترین تولید کننده انواع سینی نشا در اندازه های مختلف آماده ی همکاری با تمامی کشاورزان عزیز در سراسر ایران می باشد.",
+    "author": "WebABC"
 }
