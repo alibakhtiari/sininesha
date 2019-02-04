@@ -47,10 +47,18 @@
             <h2>محصولات</h2>
         </div>
     </div>
+    <ol itemscope itemtype="https://schema.org/BreadcrumbList">
     <ul class="breadcrumb" data-aos="fade-left">
-        <li><a href="/#">خانه</a></li>
-        <li>محصولات</li>
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a itemtype="https://schema.org/Thing" itemprop="item" href="/#"><span itemprop="name">خانه</span></a>
+            <meta itemprop="position" content="1" />
+        </li>
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a itemtype="https://schema.org/Thing" itemprop="item" href="/products"><span itemprop="name">محصولات</span></a>
+            <meta itemprop="position" content="2" />
+        </li>
     </ul>
+    </ol>
     <section class="products-view" id="prod">
         <div class="container"> <a href="/products/50.html" class="prd">
                 <div class="prd-wrapper"> <img src="/assets/images/products/50.jpg" alt="سینی 50 حفره">
